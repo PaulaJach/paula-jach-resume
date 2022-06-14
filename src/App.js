@@ -1,10 +1,15 @@
-
+import AppContainer from "./components/UI/AppContainer";
+import GlobalStyles from "./components/globals/GlobalStyles";
 
 function App() {
   return (
-    <div>
-     Hello
-    </div>
+    <>
+      <GlobalStyles/>
+      <AppContainer>
+          <h1>Paula Jach</h1>
+          <h2>Web Developer</h2>
+      </AppContainer>
+    </>
   );
 }
 
