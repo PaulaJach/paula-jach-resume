@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Header from "./Header";
+import MainContent from "./MainContent";
 
 const Wrapper = styled.div`
   position: relative;
@@ -16,6 +17,7 @@ const CvContainer = () => {
   return (
     <Wrapper>
       <Header />
+      <MainContent />
     </Wrapper>
   );
 };

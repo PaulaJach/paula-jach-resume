@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Details from "./Details";
 import { setFont, setColor } from "../../styles";
 import cv_img from "../../assets/images/cv_img.jpg";
 
@@ -20,6 +21,7 @@ const SubTitle = styled.h2`
 const ImgWrapper = styled.div`
   height: 150px;
   border-radius: 5px solid black;
+  margin-right: 20px;
   .img {
     width: 160px;
     height: 200px;
@@ -29,15 +31,15 @@ const ImgWrapper = styled.div`
 
 const Description = styled.section`
   text-align: justify;
+  flex-direction: column;
 `;
 
 const Header = () => {
   return (
     <HeaderWrapper>
       <ImgWrapper>
-        <img src={cv_img} className="img" />
+        <img src={cv_img} className="img" alt="personal photo" />
       </ImgWrapper>
-
       <Description>
         <Title>Paula Jach</Title>
         <SubTitle>Frontend Developer</SubTitle>
@@ -46,6 +48,8 @@ const Header = () => {
           improve my programming skills. I am a fast learner and I feel
           comfortable working in a group.
         </p>
+
+        <Details />
       </Description>
     </HeaderWrapper>
   );
