@@ -1,13 +1,14 @@
 import AppContainer from "./components/UI/AppContainer";
+import CvContainer from "./components/Resume/CvContainer";
 import GlobalStyles from "./components/globals/GlobalStyles";
 
 function App() {
+  console.log("lol")
   return (
     <>
       <GlobalStyles/>
       <AppContainer>
-          <h1>Paula Jach</h1>
-          <h2>Web Developer</h2>
+          <CvContainer/>
       </AppContainer>
     </>
   );
