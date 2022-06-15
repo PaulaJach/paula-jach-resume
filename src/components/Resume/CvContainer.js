@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import Header from "./Header";
-import MainContent from "./MainContent";
+import Content from "./Content";
+import Footer from "./Footer";
 
 const Wrapper = styled.div`
   position: relative;
@@ -17,7 +18,8 @@ const CvContainer = () => {
   return (
     <Wrapper>
       <Header />
-      <MainContent />
+      <Content />
+      <Footer />
     </Wrapper>
   );
 };

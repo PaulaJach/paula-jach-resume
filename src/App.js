@@ -3,12 +3,11 @@ import CvContainer from "./components/Resume/CvContainer";
 import GlobalStyles from "./components/globals/GlobalStyles";
 
 function App() {
-  console.log("lol")
   return (
     <>
-      <GlobalStyles/>
+      <GlobalStyles />
       <AppContainer>
-          <CvContainer/>
+        <CvContainer />
       </AppContainer>
     </>
   );

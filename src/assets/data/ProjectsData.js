@@ -9,4 +9,24 @@ export const projects = [
       live: "",
     },
   },
+  {
+    id: 2,
+    about: {
+      name: "Find npm package",
+      description: "about project",
+      tech: "Reactjs, Redux",
+      github: "https://github.com/PaulaJach/fetch-packages-from-npmAPI",
+      live: "",
+    },
+  },
+  {
+    id: 3,
+    about: {
+      name: "Food order app",
+      description: "about project",
+      tech: "Reactjs, ContextAPI, Firebase",
+      github: "https://github.com/PaulaJach/food-order-app",
+      live: "",
+    },
+  },
 ];

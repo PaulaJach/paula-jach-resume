@@ -1,8 +1,7 @@
 import styled from "styled-components";
-import { setFont, setColor } from "../../styles";
+import { setColor } from "../../styles";
 
 const SectionWrapper = styled.section`
-  ${setFont.main};
   padding: 1rem;
   display: flex;
   flex-direction: column;
