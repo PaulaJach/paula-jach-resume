@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { setColor } from "../../styles";
 
 const SectionWrapper = styled.section`
   padding: 1rem;

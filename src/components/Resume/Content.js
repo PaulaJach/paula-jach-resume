@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import AsideContent from "./AsideContent";
-import MainContent from "./MainContent";
+import Competences from "./Competences/Competences";
 
 const ContentWrapper = styled.div`
   display: flex;
@@ -11,7 +11,7 @@ const Content = () => {
   return (
     <ContentWrapper>
       <AsideContent />
-      <MainContent />
+      <Competences />
     </ContentWrapper>
   );
 };

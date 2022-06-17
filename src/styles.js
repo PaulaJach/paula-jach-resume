@@ -1,7 +1,7 @@
 import { css } from 'styled-components'
 
 export const setColor = {
-  primaryColor: "black",
+  primaryColor: "#234515",
   secondaryColor: "#575859",
   footerColor: "#8c8e91",
 };
