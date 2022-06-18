@@ -1,5 +1,6 @@
 import MainContent from "../MainContent";
 
+
 const Competences = () => {
   const competences = [
     {

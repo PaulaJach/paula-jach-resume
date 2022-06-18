@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import AsideContent from "./AsideContent";
 import Competences from "./Competences/Competences";
 
 const ContentWrapper = styled.div`
@@ -10,7 +9,6 @@ const ContentWrapper = styled.div`
 const Content = () => {
   return (
     <ContentWrapper>
-      <AsideContent />
       <Competences />
     </ContentWrapper>
   );

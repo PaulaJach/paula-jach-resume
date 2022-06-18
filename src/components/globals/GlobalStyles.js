@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import { setColor } from "../../styles";
 
 const GlobalStyles = createGlobalStyle`
 
@@ -17,6 +18,9 @@ body {
     background-color: black;
     height: 100%;
 }
+h4 {
+    color: ${setColor.secondaryColor};
+  }
 `;
 
 export default GlobalStyles;

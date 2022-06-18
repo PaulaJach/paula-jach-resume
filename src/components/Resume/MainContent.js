@@ -5,11 +5,12 @@ import { projects } from "../../assets/data/ProjectsData";
 import { educationData } from "../../assets/data/EducationData";
 import ProjectItem from "./Competences/CompetenceItems/ProjectItem";
 import WorkItem from "./Competences/CompetenceItems/WorkItem";
+import EducationItem from "./Competences/CompetenceItems/EducationItem";
 import { setColor } from "../../styles";
 
 const CompetenceHeading = styled.h3`
   position: relative;
-  left: 4rem;
+  left: 4.5rem;
   padding-bottom: 5px;
   color: ${setColor.primaryColor};
   text-transform: uppercase;
@@ -17,7 +18,8 @@ const CompetenceHeading = styled.h3`
 
 const SectionContent = styled.div`
   position: relative;
-  left: 4rem;
+  left: 4.5rem;
+  width: 90%;
 `;
 
 const experienceItem = experience.map((experience) => (
@@ -27,7 +29,9 @@ const projectItem = projects.map((project) => (
   <ProjectItem key={project.id} project={project} />
 ));
 
-const educationItem = educationData.map((education) => <li></li>);
+const educationItem = educationData.map((education) => (
+  <EducationItem key={education.id} education={education} />
+));
 
 const makeSectionItem = (sectionName) => {
   switch (sectionName) {
@@ -35,8 +39,8 @@ const makeSectionItem = (sectionName) => {
       return experienceItem;
     case "projects":
       return projectItem;
-    // case "education":
-    //   return educationItem;
+    case "education":
+      return educationItem;
     default:
       return false;
   }

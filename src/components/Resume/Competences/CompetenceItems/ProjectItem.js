@@ -3,9 +3,9 @@ const ProjectItem = ({ project }) => {
 
   return (
     <li>
-      <h3>
+      <h4>
         {name} - {description}
-      </h3>
+      </h4>
       <p>{tech}</p>
       <p>{github}</p>
     </li>
