@@ -10,7 +10,7 @@ import { setColor } from "../../styles";
 
 const CompetenceHeading = styled.h3`
   position: relative;
-  left: 4.5rem;
+  left: 2rem;
   padding-bottom: 5px;
   color: ${setColor.primaryColor};
   text-transform: uppercase;
@@ -18,7 +18,7 @@ const CompetenceHeading = styled.h3`
 
 const SectionContent = styled.div`
   position: relative;
-  left: 4.5rem;
+  left: 2rem;
   width: 90%;
 `;
 

@@ -4,6 +4,11 @@ const AsideWrapper = styled.aside`
   padding: 1rem;
   display: flex;
   flex-direction: column;
+  background: radial-gradient(
+    circle,
+    rgba(241, 241, 245, 0.9850533963585434) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
 `;
 
 const AsideContainer = (props) => {

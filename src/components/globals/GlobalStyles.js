@@ -20,6 +20,8 @@ body {
 }
 h4 {
     color: ${setColor.secondaryColor};
+    text-transform: uppercase;
+    margin:1rem 0 .5rem 0;
   }
 `;
 
