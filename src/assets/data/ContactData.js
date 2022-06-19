@@ -3,7 +3,7 @@ export const contactData = [
     id: 1,
     name: "telephone",
     value: "+48 691 055 464",
-    href: "tel:0048691055464",
+    href: "tel:+48691055464",
     ariaLabel: "telephone",
   },
   {
@@ -23,7 +23,7 @@ export const contactData = [
   {
     id: 4,
     name: "linkedIn",
-    value: "linkedin.com/in/paula-jach-26a22bb7/",
+    value: "linkedin.com/in/paula-jach",
     href: "https://www.linkedin.com/in/paula-jach-26a22bb7/",
     ariaLabel: "linkedIn logo",
   },

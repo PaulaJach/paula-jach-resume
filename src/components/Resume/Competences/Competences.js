@@ -19,11 +19,11 @@ const Competences = () => {
   ];
 
   return (
-    <div>
+    <main>
       {competences.map((competence, id) => (
         <MainContent key={id} competence={competence} />
       ))}
-    </div>
+    </main>
   );
 };
 export default Competences;

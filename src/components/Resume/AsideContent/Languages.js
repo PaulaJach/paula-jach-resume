@@ -1,13 +1,14 @@
 import { languages } from "../../../assets/data/AsideContentInformation";
+import AsideDetailContainer from "../../UI/AsideDetailContainer";
 
 const Languages = () => {
   return (
-    <div>
+    <AsideDetailContainer>
       <h4>Languages</h4>
       {languages.map((language, id) => (
         <li key={id}>{language}</li>
       ))}
-    </div>
+    </AsideDetailContainer>
   );
 };
 

@@ -10,7 +10,7 @@ import { setColor } from "../../styles";
 
 const CompetenceHeading = styled.h3`
   position: relative;
-  left: 2rem;
+  left: 1rem;
   padding-bottom: 5px;
   color: ${setColor.primaryColor};
   text-transform: uppercase;
@@ -18,7 +18,7 @@ const CompetenceHeading = styled.h3`
 
 const SectionContent = styled.div`
   position: relative;
-  left: 2rem;
+  left: 1rem;
   width: 90%;
 `;
 
@@ -49,12 +49,12 @@ const makeSectionItem = (sectionName) => {
 const MainContent = ({ competence }) => {
   const { sectionName, sectionHeader } = competence;
   return (
-    <main>
+    <div>
       <SectionContainer>
         <CompetenceHeading>{sectionHeader}</CompetenceHeading>
         <SectionContent>{makeSectionItem(sectionName)}</SectionContent>
       </SectionContainer>
-    </main>
+    </div>
   );
 };
 

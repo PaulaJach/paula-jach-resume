@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 const AsideWrapper = styled.aside`
   padding: 1rem;
+  width: 290px;
   display: flex;
   flex-direction: column;
   background: radial-gradient(

@@ -3,7 +3,7 @@ import { setColor } from "../../styles";
 import cv_img from "../../assets/images/cv_img.jpg";
 
 const HeaderWrapper = styled.header`
-  margin: 40px;
+  margin: 30px 40px;
   display: flex;
 `;
 

@@ -8,6 +8,29 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
+
+const ContactWrapper = styled.li`
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+
+  span {
+    padding: 0.2rem;
+    width: 30px;
+    margin-right: 5px;
+  }
+  a {
+    font-weight: bold;
+    color: black;
+    font-size: 0.9rem;
+    padding: 0.2rem;
+    align-items: left;
+    :visited {
+      color: black;
+    }
+  }
+`;
+
 const Contact = () => {
   return (
     <div>
@@ -23,10 +46,12 @@ const Contact = () => {
           (name === "email" && <FontAwesomeIcon icon={faEnvelope} />) ||
           (name === "portfolio" && <FontAwesomeIcon icon={faLaptopCode} />);
         return (
-          <li key={id}>
-            {icon}
-            <p>{name}</p>
-          </li>
+          <ContactWrapper key={id}>
+            <a href={href} target="_blank">
+              <span>{icon}</span>
+              {value}
+            </a>
+          </ContactWrapper>
         );
       })}
     </div>
