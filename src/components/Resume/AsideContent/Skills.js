@@ -4,7 +4,7 @@ import AsideDetailContainer from "../../UI/AsideDetailContainer";
 const Skills = () => {
   return (
     <AsideDetailContainer>
-      <h4>Technologies I use:</h4>
+      <h5>Technologies I use:</h5>
       {skills.map((skill, id) => (
         <li key={id}>
           <p>{skill}</p>

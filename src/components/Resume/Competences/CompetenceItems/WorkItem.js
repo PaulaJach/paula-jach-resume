@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import CompetenceItemContainer from "../../../UI/CompetenceItemContainer";
 
 const WorkItemList = styled.ul`
   padding: 0.5rem;
@@ -14,7 +14,9 @@ const WorkItem = ({ work }) => {
         {date} - {company} - {position}
       </h4>
       {responsibilities.map((responsibility, index) => (
-        <li key={index}>- {responsibility}</li>
+        <CompetenceItemContainer key={index}>
+          {responsibility}
+        </CompetenceItemContainer>
       ))}
     </WorkItemList>
   );

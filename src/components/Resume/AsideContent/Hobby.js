@@ -4,7 +4,7 @@ import AsideDetailContainer from "../../UI/AsideDetailContainer";
 const Hobby = () => {
   return (
     <AsideDetailContainer>
-      <h4>HOBBY</h4>
+      <h5>HOBBY</h5>
       {hobby.map((hobby, id) => (
         <li key={id}>{hobby}</li>
       ))}

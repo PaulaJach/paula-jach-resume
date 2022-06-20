@@ -1,3 +1,5 @@
+import CompetenceItemContainer from "../../../UI/CompetenceItemContainer";
+
 const EducationItem = ({ education }) => {
   const { date, school, degree, branch, specialization } = education;
 
@@ -7,14 +9,17 @@ const EducationItem = ({ education }) => {
   }
 
   return (
-    <li>
+    <CompetenceItemContainer>
       <h4>
         {date} - {school}
       </h4>
-      <p>Degree: {degree}</p>
-      <p>Branch of study: {branch}</p>
-      {spec}
-    </li>
+      <div>
+        <p>
+          Degree: {degree}, Branch of study: {branch}
+        </p>
+        {spec}
+      </div>
+    </CompetenceItemContainer>
   );
 };
 

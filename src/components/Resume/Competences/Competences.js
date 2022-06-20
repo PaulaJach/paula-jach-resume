@@ -9,7 +9,7 @@ const Competences = () => {
     },
     {
       sectionName: "projects",
-      sectionHeader: "Created projects",
+      sectionHeader: "Selected projects",
     },
 
     {

@@ -8,7 +8,6 @@ const GlobalStyles = createGlobalStyle`
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	list-style-type: none;
 }
 body {
     position: relative;
@@ -19,9 +18,13 @@ body {
     height: 100%;
 }
 h4 {
-    color: ${setColor.secondaryColor};
+    color: ${setColor.primaryColor};
+    display: inline;
+}
+h5 {
+    color: ${setColor.headingColor};
     text-transform: uppercase;
-    margin:1rem 0 .5rem 0;
+    margin-bottom: .5rem;
   }
 `;
 

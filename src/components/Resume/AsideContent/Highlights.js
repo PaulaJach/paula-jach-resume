@@ -4,7 +4,7 @@ import AsideDetailContainer from "../../UI/AsideDetailContainer";
 const Highlights = () => {
   return (
     <AsideDetailContainer>
-      <h4>HIGHLIGHTS</h4>
+      <h5>HIGHLIGHTS</h5>
       {highlights.map((highlight, id) => (
         <li key={id}>
           <p>{highlight}</p>

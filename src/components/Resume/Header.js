@@ -8,14 +8,14 @@ const HeaderWrapper = styled.header`
 `;
 
 const Title = styled.h1`
-  color: ${setColor.primaryColor};
+  color: ${setColor.secondaryColor};
   font-size: 40px;
   letter-spacing: 0.4rem;
   text-transform: uppercase;
 `;
 
 const SubTitle = styled.h2`
-  color: ${setColor.secondaryColor};
+  color: ${setColor.headingColor};
   letter-spacing: 0.4rem;
   margin: 0.5rem 0;
 `;
@@ -25,8 +25,8 @@ const ImgWrapper = styled.div`
   border-radius: 5px solid black;
   margin-right: 20px;
   .img {
-    width: 160px;
-    height: 200px;
+    width: 140px;
+    height: 180px;
     border-radius: 10px;
   }
 `;
@@ -34,7 +34,8 @@ const ImgWrapper = styled.div`
 const Description = styled.section`
   text-align: justify;
   flex-direction: column;
-  color: ${setColor.secondaryColor};
+  color: ${setColor.primaryColor};
+  font-size: 0.9rem;
 `;
 
 const Header = () => {

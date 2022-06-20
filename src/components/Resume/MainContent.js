@@ -10,16 +10,15 @@ import { setColor } from "../../styles";
 
 const CompetenceHeading = styled.h3`
   position: relative;
-  left: 1rem;
+  margin-top: -20px;
   padding-bottom: 5px;
-  color: ${setColor.primaryColor};
+  color: ${setColor.secondaryColor};
   text-transform: uppercase;
 `;
 
 const SectionContent = styled.div`
   position: relative;
-  left: 1rem;
-  width: 90%;
+  width: 100%;
 `;
 
 const experienceItem = experience.map((experience) => (
