@@ -5,10 +5,15 @@ const FooterWrapper = styled.footer`
   ${setColor.secondaryColor};
   p {
     text-align: justify;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem;
     margin: 0.5rem;
     color: ${setColor.footerColor};
     font-size: 0.7rem;
+  }
+  @media print {
+    position: absolute;
+    bottom: 0;
+    font-size: 0.6rem;
   }
 `;
 

@@ -31,6 +31,9 @@ const ContactWrapper = styled.li`
     :visited {
       color: ${setColor.primaryColor};
     }
+    @media print {
+      font-size: 0.7rem;
+    }
   }
 `;
 

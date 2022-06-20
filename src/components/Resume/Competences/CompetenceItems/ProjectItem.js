@@ -6,6 +6,7 @@ const StyledDescription = styled.div`
   font-weight: bold;
   display: inline-block;
   color: ${setColor.headingColor};
+  margin-bottom: 0.2rem;
   button {
     display: inline-block;
   }
@@ -29,6 +30,10 @@ const StyledButtons = styled.div`
       transform: scale(1.2);
       transition: background-color 0.7s ease 0s;
       background-color: ${setColor.headingColor};
+    }
+
+    @media print {
+      padding: 0.1rem 0.2rem;
     }
   }
 `;

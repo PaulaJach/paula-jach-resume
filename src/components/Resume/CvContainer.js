@@ -12,6 +12,16 @@ const Wrapper = styled.div`
   box-shadow: 5px 7px 10px 4px #ccc;
   display: flex;
   flex-direction: column;
+
+  @media print {
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid #234515;
+    box-shadow: none;
+    margin: 0 auto;
+    overflow: hidden;
+  }
 `;
 
 const CvContainer = () => {

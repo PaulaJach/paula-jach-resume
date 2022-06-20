@@ -35,7 +35,10 @@ const Description = styled.section`
   text-align: justify;
   flex-direction: column;
   color: ${setColor.primaryColor};
-  font-size: 0.9rem;
+  font-size: 1rem;
+  @media print {
+    font-size: 0.8rem;
+  }
 `;
 
 const Header = () => {

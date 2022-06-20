@@ -2,7 +2,11 @@ import styled from "styled-components";
 import CompetenceItemContainer from "../../../UI/CompetenceItemContainer";
 
 const WorkItemList = styled.ul`
-  padding: 0.5rem;
+  padding: 0 0.5rem;
+  margin-bottom: 1rem;
+  @media print {
+    margin-bottom: 0.2rem;
+  }
 `;
 
 const WorkItem = ({ work }) => {
