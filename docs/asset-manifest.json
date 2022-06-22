@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/paula-jach-resume/static/js/main.c1012fe0.js",
+    "static/media/bg_image.jpg": "/paula-jach-resume/static/media/bg_image.9b74be9c5e40e8edb85b.jpg",
+    "static/media/cv_img.jpg": "/paula-jach-resume/static/media/cv_img.bf225f161a6811881c02.jpg",
+    "index.html": "/paula-jach-resume/index.html",
+    "main.c1012fe0.js.map": "/paula-jach-resume/static/js/main.c1012fe0.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.c1012fe0.js"
+  ]
+}

@@ -31,7 +31,7 @@ export const experience = [
     responsibilities: [
       "answering phone calls and receiving e-mails",
       "arranging head’s office meetings",
-      "cooperation with all company departments and public institutions,",
+      "cooperation with all company departments and public institutions",
       "organizing company trainings",
       "preparing and archiving company documents",
     ],

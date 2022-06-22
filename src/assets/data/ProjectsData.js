@@ -4,8 +4,8 @@ export const projects = [
     name: "Resume",
     description: "my resume created in React.js",
     tech: "Reactjs, Styled Components",
-    github: "https://github.com/PaulaJach/food-order-app",
-    live: "",
+    github: "https://github.com/PaulaJach/paula-jach-resume",
+    live: "https://paulajach.github.io/paula-jach-resume",
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ export const projects = [
     description: "react application to searching npm packages",
     tech: "Reactjs, Redux",
     github: "https://github.com/PaulaJach/fetch-packages-from-npmAPI",
-    live: "",
+    live: "https://paulajach.github.io/fetch-packages-from-npmAPI",
   },
   {
     id: 4,
@@ -29,6 +29,6 @@ export const projects = [
     description: "a dummy e-commerce app in React.js",
     tech: "Reactjs, ContextAPI, Firebase",
     github: "https://github.com/PaulaJach/food-order-app",
-    live: "",
+    live: "https://paulajach.github.io/food-order-app",
   },
 ];
